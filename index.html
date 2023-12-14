@@ -6,17 +6,78 @@
     <title>Document</title>
   </head>
   <body>
-    <select name="order" id="order">
-      <option value=""></option>
-      <option value="0">HP</option>
-      <option value="1">Attack</option>
-      <option value="2">Defense</option>
-      <option value="3">Special Attack</option>
-      <option value="4">Special Defense</option>
-      <option value="5">Speed</option>
-    </select>
+    <header style="display: flex">
+      <select name="order" id="order">
+        <option value=""></option>
+        <option value="0">HP</option>
+        <option value="1">Attack</option>
+        <option value="2">Defense</option>
+        <option value="3">Special Attack</option>
+        <option value="4">Special Defense</option>
+        <option value="5">Speed</option>
+      </select>
 
-    <div class="container"></div>
+      <div>
+        <h4>HP</h4>
+        <input type="checkbox" id="h0-30" name="0" value="0-30" />
+        <label for="h0-30"> 0-30 </label><br />
+        <input type="checkbox" id="h30-50" name="0" value="30-50" />
+        <label for="h30-50"> 30-50 </label><br />
+        <input type="checkbox" id="h50-100" name="0" value="50-100" />
+        <label for="h50-100"> 50-100 </label><br />
+      </div>
+
+      <div>
+        <h4>Attack</h4>
+        <input type="checkbox" id="a0-30" name="1" value="0-30" />
+        <label for="a0-30"> 0-30 </label><br />
+        <input type="checkbox" id="a30-50" name="1" value="30-50" />
+        <label for="a30-50"> 30-50 </label><br />
+        <input type="checkbox" id="a50-100" name="1" value="50-100" />
+        <label for="a50-100"> 50-100 </label><br />
+      </div>
+
+      <div>
+        <h4>Defense</h4>
+        <input type="checkbox" id="d0-30" name="2" value="0-30" />
+        <label for="d0-30"> 0-30 </label><br />
+        <input type="checkbox" id="d30-50" name="2" value="30-50" />
+        <label for="d30-50"> 30-50 </label><br />
+        <input type="checkbox" id="d50-100" name="2" value="50-100" />
+        <label for="d50-100"> 50-100 </label><br />
+      </div>
+
+      <div>
+        <h4>Special Attack</h4>
+        <input type="checkbox" id="sa0-30" name="3" value="0-30" />
+        <label for="sa0-30"> 0-30 </label><br />
+        <input type="checkbox" id="sa30-50" name="3" value="30-50" />
+        <label for="sa30-50"> 30-50 </label><br />
+        <input type="checkbox" id="sa50-100" name="3" value="50-100" />
+        <label for="sa50-100"> 50-100 </label><br />
+      </div>
+
+      <div>
+        <h4>Special Defense</h4>
+        <input type="checkbox" id="sd0-30" name="4" value="0-30" />
+        <label for="sd0-30"> 0-30 </label><br />
+        <input type="checkbox" id="sd30-50" name="4" value="30-50" />
+        <label for="sd30-50"> 30-50 </label><br />
+        <input type="checkbox" id="sd50-100" name="4" value="50-100" />
+        <label for="sd50-100"> 50-100 </label><br />
+      </div>
+
+      <div>
+        <h4>Speed</h4>
+        <input type="checkbox" id="s0-30" name="5" value="0-30" />
+        <label for="s0-30"> 0-30 </label><br />
+        <input type="checkbox" id="s30-50" name="5" value="30-50" />
+        <label for="s30-50"> 30-50 </label><br />
+        <input type="checkbox" id="s50-100" name="5" value="50-100" />
+        <label for="s50-100"> 50-100 </label><br />
+      </div>
+    </header>
+    <div class="container" style="display: flex; flex-wrap: wrap"></div>
 
     <script src="script.js"></script>
   </body>
